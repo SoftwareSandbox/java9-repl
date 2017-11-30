@@ -23,14 +23,16 @@ A _REPL_ is usually considered to be on the same _level_ as _TDD_: as a learning
 * When a statement is performed in `jshell` that has syntax errors, **sometimes** some of your state gets lost.
 * Unable to dynamically extend your classpath (e.g. adding external libraries on the fly). You'll need to restart your `jshell` for that.
 
-
 ## Do you like the feature?
 Not recommended without using IntelliJ.
 
 
 ## Will you use it on your project?
-Naah. Maybe using IntelliJ snippets it might be handy to quickly test a library/framework.
+Naah. 
 
+Maybe using IntelliJ snippets it might be handy to quickly test a library/framework.
+
+Maybe also a good tool for teachers to show to their students how code works and what the output of certain code snippets is.
 
 ## What are the reasons you won’t be using it?
 Most developers will tend to use IntelliJ's 'evaluate expression' if one quickly wants to see the result of some statement.
