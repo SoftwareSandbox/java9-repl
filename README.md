@@ -13,15 +13,15 @@ A _REPL_ is usually considered to be on the same _level_ as _TDD_: as a learning
 * It provides a helpful `/help` command, allowing one to learn _on demand_ about all of the features `jshell` offers.
 * Instead of debugging, get quick feedback on small pieces of code.
 * No need to deal with _Checked Exceptions_.
-* IntelliJ has support for an embedded REPL, with all of the features (compile errors, auto-completion, templates, ...).
-* Excellent tool for beginners to start learning immediately without having to install IDE's, dependency management tools, etc.
-* Statements get tagged with _id's_, allowing statements to be recalled.
+* Excellent tool for beginners to start learning immediately without having to install IDE's, dependency management tools, etc. Then again, we don't recommend using it without an IDE.
+* Statements in the `jshell` get tagged with _id's_, allowing statements to be recalled on demand.
+* IntelliJ has support for an embedded REPL, with all of the features (compile errors, auto-completion, templates, using module classpath, ...).
 
 ### Disadvantages
 * Java, the language, doesn't exactly lend itself for small snippets, because of its verbosity.
 * Usually experiments for small bits of code are done in Unit Tests, providing a consistent, rerunnable history of _experiments_ that document how our code works.
-* There is no auto-indentation.
-* When a statement is performed that has syntax errors, **sometimes** some of your state gets lost.
+* There is no auto-indentation in `jshell`.
+* When a statement is performed in `jshell` that has syntax errors, **sometimes** some of your state gets lost.
 * Unable to dynamically extend your classpath (e.g. adding external libraries on the fly). You'll need to restart your `jshell` for that.
 
 
