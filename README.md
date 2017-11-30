@@ -4,7 +4,7 @@ Discovering the REPL features for the Java Guild
 ## What does this new feature do?
 Introduces a _Read Eval Print Loop_ with the `jshell` command, runnable from your favorite shell.
 
-A _REPL_ is usually considered to be on the same _level_ as _TDD_, aka as a learning and experimentation instrument.
+A _REPL_ is usually considered to be on the same _level_ as _TDD_: as a learning and experimentation instrument.
 
 
 
