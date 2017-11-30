@@ -7,7 +7,6 @@ Introduces a _Read Eval Print Loop_ with the `jshell` command, runnable from you
 A _REPL_ is usually considered to be on the same _level_ as _TDD_: as a learning and experimentation instrument.
 
 
-
 ## What are the advantages and disadvantages?
 ### Advantages
 * It provides a helpful `/help` command, allowing one to learn _on demand_ about all of the features `jshell` offers.
@@ -30,10 +29,13 @@ Not recommended without using IntelliJ.
 
 
 ## Will you use it on your project?
+Naah. Maybe using IntelliJ snippets it might be handy to quickly test a library/framework.
 
 
 ## What are the reasons you won’t be using it?
-* Most developers will tend to use IntelliJ's 'evaluate expression' if one quickly wants to see the result of some statement.
+Most developers will tend to use IntelliJ's 'evaluate expression' if one quickly wants to see the result of some statement.
+
+Because you need Java 9 and our projects aren't yet on Java 9.
 
 
 ## /help
