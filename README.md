@@ -22,16 +22,19 @@ A _REPL_ is usually considered to be on the same _level_ as _TDD_: as a learning
 * Usually experiments for small bits of code are done in Unit Tests, providing a consistent, rerunnable history of _experiments_ that document how our code works.
 * There is no auto-indentation.
 * When a statement is performed that has syntax errors, **sometimes** some of your state gets lost.
-
+* Unable to dynamically extend your classpath (e.g. adding external libraries on the fly). You'll need to restart your `jshell` for that.
 
 
 ## Do you like the feature?
+Not recommended without using IntelliJ.
 
 
 ## Will you use it on your project?
 
 
 ## What are the reasons you won’t be using it?
+
+
 
 ## /help
 ```
