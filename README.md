@@ -33,7 +33,7 @@ Not recommended without using IntelliJ.
 
 
 ## What are the reasons you won’t be using it?
-
+* Most developers will tend to use IntelliJ's 'evaluate expression' if one quickly wants to see the result of some statement.
 
 
 ## /help
